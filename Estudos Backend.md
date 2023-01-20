@@ -12,13 +12,23 @@
 
 # Funções Lambda
 
+- Há 3 principais formas de disparar a execução de funções Lambda: através de rotas HTTP, eventos (que ocorrem em serviços dentro da própria AWS) e pela linha de comando do Serverless Framework.
+
 - As funções Lambda possuem um time out máximo de 15 minutos. 
 
 # Serverless
 
 - Serverless é um modelo de computação em nuvem, que significa "menos servidor", em que o desenvolvedor não precisa se preocupar com a infraestrutura da aplicação. O servidor ainda existe, mas é gerenciado pelo provedor do serviço em nuvem (O AWS Lambda, por exemplo), permitindo que o desenvolvedor foque apenas no software em si. 
 
-- Com o Serverless, o custo existe de acordo com o que a aplicação utilizar de recursos. 
+- Normalmente as soluções Serverless disponíveis possuem um modelo de execução orientado a eventos. 
+
+- O custo existe de acordo com o que a aplicação utilizar de recursos. 
+
+- Com o Serverless, um evento aciona a execução do código, desta forma o provedor de nuvem aloca os recursos para essa execução de forma dinâmica. Quando uma função termina sua execução, não há mais cobrança. Portanto, o modelo Serverless traz uma boa eficiência e economia, mas também livra os desenvolvedores de tarefas relacionadas ao servidor e a escalabilidade da aplicação, ficando tudo a critério do provedor do serviço.
+
+- As soluções de computação serverless costumam ser divididas em duas categorias: back-end como serviço (BaaS) e função como serviço (FaaS).  
+
+- Função como serviço (FaaS) é um modelo de execução de computação orientado a eventos que são utilizados em aplicações Serverless e são chamadas através de APIs. O Serverless é normalmente utilizado com este modelo, em que os principais provedores de nuvem possuem um serviço como a AWS, com o AWS Lambda, Azure, com o Azure functions, Google Cloud, IBM Cloud Functions e outros.
 
 # CloudFront
 
@@ -37,3 +47,15 @@ https://www.alura.com.br/conteudo/serverless-aws-lambda
 https://dev.to/feministech/criando-uma-aws-lambda-com-serverless-framework-54ph
 
 https://www.serverless.com/aws-lambda
+
+https://www.youtube.com/watch?v=jiP45rEOEbA
+
+https://www.redhat.com/pt-br/topics/cloud-native-apps/what-is-serverless
+
+https://blog.tecnospeed.com.br/o-que-e-arquitetura-serverless/
+
+https://docs.aws.amazon.com/pt_br/lambda/latest/dg/welcome.html
+
+https://www.youtube.com/watch?v=lEo4bN-2ysQ
+
+https://www.youtube.com/watch?v=ifdV3NuyoBI
