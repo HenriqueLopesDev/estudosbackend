@@ -32,9 +32,25 @@
 
 # CloudFront
 
+- O CloudFront é o CDN (Content Delivery Network) da Amazon que permite entregar conteúdos estáticos e dinâmicos para os usuários, como arquivos HTML, CSS, JS, imagens etc. O CloudFront permite um maior desempenho para o funcionamento da aplicação pois ao processar o pedido de um usuário, a solicitação de usuário é roteada para o melhor ponto de presença que fornece a melhor latência. 
+
+- Além disso, o CloudFront permite maior confiabilidade e disponibilidade visto que os arquivos estarão armazenados em vários pontos de presença em todo o mundo. 
+
 # S3
 
+- O Amazon Simple Storage Service (Amazon S3) é um serviço de armazenamento de objetos (arquivos) que guarda os itens em buckets.
+
+- Buckets são containers de objetos. Ao criar um bucket, você insere um nome de bucket e escolhe a Região da AWS onde o bucket residirá.
+
+- Oferece segurança, disponibilidade e desempenho para os desenvolvedores. Permite armazenar desde simples arquivos até backups, análises de Big Data etc. 
+
 # DynamoDB
+
+- O Amazon DynamoDB é um serviço de banco de dados NoSQL com alta performance e escalabilidade.
+
+- Possui recursos de Backup.
+
+- Os dados são replicados em várias zonas de disponibilidade da AWS, o que traz alta disponibilidade e durabilidade dos dados.
 
 # Referências
 
@@ -59,3 +75,11 @@ https://docs.aws.amazon.com/pt_br/lambda/latest/dg/welcome.html
 https://www.youtube.com/watch?v=lEo4bN-2ysQ
 
 https://www.youtube.com/watch?v=ifdV3NuyoBI
+
+https://docs.aws.amazon.com/pt_br/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
+
+https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/Welcome.html
+
+https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/Welcome.html
+
+https://docs.aws.amazon.com/pt_br/amazondynamodb/latest/developerguide/Introduction.html
